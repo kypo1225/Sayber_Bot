@@ -11,7 +11,7 @@ public class TextList {
 
 	public Map<String, String> createMap() {
 		map.put("おはよう", "おはYO");
-		map.put("こんにちは", "こんにちは琵琶湖");
+		map.put("こんにちは", "こんにちは");
 		map.put("こんばんは", "こんばんは草");
 		map.put("おやすみなさい", "おやすみなさいBrother");
 

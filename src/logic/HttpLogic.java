@@ -56,6 +56,7 @@ public class HttpLogic {
 				con.disconnect();
 			}
 		}
+
 		System.out.println("結果：" + result.toString());
 	}
 }

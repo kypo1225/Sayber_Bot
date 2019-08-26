@@ -27,7 +27,7 @@ public class MainServlet extends HttpServlet {
 		response.setContentType("text/html; charset=UTF-8");
 
 		PrintWriter out = response.getWriter();
-		out.println("<html><meta charset=\"UTF-8\"><head></head><body><h1>SynologyChatから入力待ちでござる</h1></body></html>");
+		out.println("<html><meta charset=\"UTF-8\"><head></head><body><h1>SynologyChatから入力待ちでござ</h1></body></html>");
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)

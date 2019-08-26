@@ -21,14 +21,6 @@ public class UserInfoSplit {
 		this.userInfo = json;
 	}
 
-	//	public String getToken() {
-	//		int tokenStart = userInfo.indexOf(token) + token.length();
-	//		int tokenEnd = userInfo.indexOf("&");
-	//		this.completeToken =  userInfo.substring(tokenStart, tokenEnd);
-	//
-	//		return completeToken;
-	//	}
-
 	public int getId() {
 		int idStart = userInfo.indexOf(id) + id.length();
 		String s = userInfo.substring(idStart);
@@ -39,13 +31,6 @@ public class UserInfoSplit {
 		return completeId;
 
 	}
-	//
-	//	public String getName() {
-	//		int nameStart = userInfo.indexOf(name) + name.length();
-	//		this.completeName = userInfo.substring(nameStart,userInfo.length());
-	//
-	//		return completeName;
-	//	}
 
 	public String getText() {
 		int textStart = userInfo.indexOf(text) + text.length();
